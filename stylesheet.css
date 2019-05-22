@@ -1,0 +1,9 @@
+.nav {
+    height: 200px;
+    
+}
+
+.backgroundimage {
+    background-image:url(assests/banner-2.png);
+    background-repeat: no-repeat;  
+}
