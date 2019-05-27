@@ -50,6 +50,19 @@ p {
     cursor: pointer;
 }
 
+#banner {
+    height: 300px;
+}
+
+#samples {
+    background-image: url(images/backgroundtexture-1.png); 
+    height: 500px;
+}
+
+#contact {
+    height: 300px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     
