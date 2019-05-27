@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'magic_school_oneregular';
+    src: url('fonts/magicschoolone-webfont.eot');
+    src: url('fonts/magicschoolone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/magicschoolone-webfont.woff2') format('woff2'),
+         url('fonts/magicschoolone-webfont.woff') format('woff'),
+         url('fonts/magicschoolone-webfont.ttf') format('truetype'),
+         url('fonts/magicschoolone-webfont.svg#magic_school_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+    font-family: "magic_school_oneregular";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+}
+
+#header {
+    height: 150px;
+    background-image: url(images/banner-2.png);
+}
+
+#logoimg img{
+    max-width: inherit;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+                
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
