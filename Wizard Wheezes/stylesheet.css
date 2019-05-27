@@ -11,33 +11,61 @@
 
 }
 
+
 p {
     font-family: "magic_school_oneregular";
     font-weight: normal;
     font-style: normal;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 #header {
     height: 150px;
     background-image: url(images/banner-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo {
+    padding-top: 10px;
 }
 
-#logoimg img{
-    max-width: inherit;
+#logo img{
+    max-width: 130px;
+}
+
+#nav {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+#dropsymbol {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 45px;
+}
+
+#dropsymbol img:hover {
+    cursor: pointer;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-                
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+    p {
+    font-size: 70px;
+    }
+    #nav {
+        padding-top: 15px;
+    }
 }
