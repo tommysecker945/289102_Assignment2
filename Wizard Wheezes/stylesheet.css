@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap');
+
 @font-face {
     font-family: 'magic_school_oneregular';
     src: url('fonts/magicschoolone-webfont.eot');
@@ -9,6 +11,16 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 15px;
 }
 
 body {
@@ -96,59 +108,117 @@ h1 {
 .lpurple {
     background-color: #AA5181;
     min-height: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 7px;
 }
+
+
 .item {
     background-color: #812B59;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    height: 150px;
 }
 
 .item1 img {
-    width: 90px;
+    width: 70px;
 }
 
 .item2 {
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 .item2 img {
-    width: 140px;
+    width: 90px;
+}
+
+.item3 {
+    padding-top: 30px;
 }
 
 .item3 img {
-    width: 140px;
+    width: 90px;
+}
+
+.item4 {
+    padding-top: 30px;
 }
 
 .item4 img {
-    width: 135px;
+    width: 80px;
 }
 
 .item5 img {
     transform: rotate(-90deg);
-    width: 90px;
+    width: 50px;
 }
 
 .item5 {
-    padding-top: 0px;
-}
-
-.item6 {
-    padding-top: 15px;
-}
-
-.item6 img {
-    width: 125px;
-}
-
-#contact {
-    min-height: 300px;
     padding-top: 20px;
 }
 
+.item6 {
+    padding-top: 30px;
+}
+
+.item6 img {
+    width: 80px;
+}
+
+.item7 img {
+    width: 90px;
+}
+
+.item8 img {
+    width: 90px;
+}
+
+.item8 {
+    padding-top: 45px;
+}
+
+.item9 img {
+    width: 60px;
+}
+
+.item10 img {
+    width: 60px;
+}
+
+.item11 img {
+    width: 70px;
+}
+
+.item11 {
+    padding-top: 25px;
+}
+
+.item12 img {
+    width: 80px;
+}
+
+.item12 {
+    padding-top: 30px;
+}
+
+#contact {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #FFEBCF;
+}
+
 #inventory {
-    min-height: 500px;
+    min-height: 800px;
     padding: 20px 30px;
     background-image: url(images/backgroundtexture-1.png);
+}
+
+
+.contactsp {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
 }
 
 #footer {
@@ -173,12 +243,94 @@ h1 {
     #logo img{
         max-width: 130px;
     }
+    
+    .item {
+        padding-top: 20px;
+        height: 170px;
+    }
+    
+    .item1 img {
+        width: 85px;
+    }
+
+    .item2 {
+        padding-top: 30px;
+    }
+
+    .item2 img {
+        width: 130px;
+    }
+
+    .item3 img {
+        width: 130px;
+    }
+    
+    .item4 img {
+        width: 125px;
+    }
+
+    .item5 img {
+        transform: rotate(-90deg);
+        width: 90px;
+    }
+
+    .item5 {
+        padding-top: 0px;
+    }
+
+    .item6 {
+        padding-top: 27px;
+    }
+
+    .item6 img {
+        width: 110px;
+    }
+
+    .item7 img {
+        width: 110px;
+    }
+
+    .item8 img {
+        width: 155px;
+    }
+
+    .item8 {
+        padding-top: 37px;
+    }
+
+    .item9 img {
+        width: 72px;
+    }
+
+    .item10 img {
+        width: 72px;
+    }
+
+    .item11 img {
+        width: 92px;
+    }
+
+    .item11 {
+        padding-top: 25px;
+    }
+
+    .item12 img {
+        width: 110px;
+    }
+
+    .item12 {
+        padding-top: 30px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     a {
         font-size: 70px;
+    }
+    
+    p {
+        font-size: 20px;
     }
     
     h1 {
@@ -188,4 +340,87 @@ h1 {
     #nav {
         padding-top: 15px;
     }
+    
+    #inventory {
+        min-height: 1000px;
+    }
+    
+    .lpurple {
+        min-height: 50px;
+    }
+    
+    .item {
+        padding-top: 22px;
+        height: 200px;
+    }
+    
+    .item1 img {
+        width: 100px;
+    }
+
+    .item2 {
+        padding-top: 42px;
+    }
+
+    .item2 img {
+        width: 140px;
+    }
+
+    .item3 img {
+        width: 150px;
+    }
+
+    .item4 img {
+        width: 150px;
+    }
+
+    .item5 img {
+        transform: rotate(-90deg);
+        width: 105px;
+    }
+
+    .item5 {
+        padding-top: 0px;
+    }
+    
+    .item6 {
+        padding-top: 30px;
+    }
+
+    .item6 img {
+        width: 130px;
+    }
+    
+    .item7 img {
+        width: 132px;
+    }
+
+    .item8 img {
+        width: 180px;
+    }
+    
+    .item8 {
+        padding-top: 47px;
+    }
+
+    .item9 img {
+        width: 90px;
+    }
+
+    .item10 img {
+        width: 90px;
+    }
+
+    .item11 img {
+        width: 115px;
+    }
+
+    .item12 img {
+        width: 135px;
+    }
+    
+    .item12 {
+        padding-top: 30px;
+    }
+    
 }
